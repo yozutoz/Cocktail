@@ -121,3 +121,44 @@ ul {
 ul li {
   margin: 5px 0;
 }
+
+/* src/index.css */
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px auto;
+}
+
+.search-bar {
+  padding: 10px;
+  font-size: 1rem;
+  width: 300px;
+  max-width: 90%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.search-bar:focus {
+  border: 1px solid #ffbf47;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ffbf47;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #e5a93a;
+}
